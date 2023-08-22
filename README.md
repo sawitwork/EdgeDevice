@@ -4,19 +4,6 @@
 
 **Create things**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b7fce20e-1370-4262-ba0c-7cbfcac73481/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9eaec664-5f6f-4394-af67-7b73b01b21a4/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0084f440-ef81-4eb7-b5a8-26d9ade1a3d3/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/38c5c4dd-9866-4821-8d0a-a0b0eb15e13b/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f5a45132-a26f-4147-a326-916200bbdc9e/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac263e0b-0e9d-4aff-89f2-be3270e2c977/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b3499994-3ee4-44fc-abe1-cb42ec77d9aa/Untitled.png)
 
 edit tuya_config
 
