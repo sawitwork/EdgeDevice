@@ -5,7 +5,7 @@
 **Create things**
 
 
-edit tuya_config
+**tuya_config**
 
 ```bash
 {
@@ -34,7 +34,7 @@ edit tuya_config
 }
 ```
 
-scp file to edge
+**scp file to edge**
 
 ```bash
 scp -r C:/path/to/file/device.pem.crt trinity@192.168.xxx.xxx:/home/trinity
@@ -44,7 +44,7 @@ scp -r C:/path/to/file/private.pem.key trinity@192.168.xxx.xxx:/home/trinity
 scp -r C:/path/to/file/public.pem.key trinity@192.168.xxx.xxx:/home/trinity
 ```
 
-edit file GreengrassInstaller/config.yaml
+**edit file GreengrassInstaller/config.yaml**
 
 ```bash
 sudo nano GreengrassInstaller/config.yaml
@@ -79,3 +79,29 @@ sudo -E java -Droot="/greengrass/v2" -Dlog.store=FILE -jar ./GreengrassInstaller
 ```
 
 Policies of Things `trinity-iot-thing-policy` * for AWS role `scg-trinity-prod`
+
+
+**Manually uninstall Greengrass**
+Stop the service
+```bash
+sudo systemctl stop greengrass.service
+```
+Disable the service
+```bash
+sudo systemctl disable greengrass.service
+```
+
+Remove the service
+```bash
+sudo rm /etc/systemd/system/greengrass.service
+```
+
+Verify that the service is deleted
+```bash
+sudo systemctl daemon-reload && sudo systemctl reset-failed
+```
+
+X Remove Greengrass root folder X
+```bash
+sudo rm -rf /greengrass/v2
+```
