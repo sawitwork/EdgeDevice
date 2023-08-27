@@ -74,6 +74,11 @@ services:
 sudo mv device.pem.crt private.pem.key public.pem.key /greengrass/v2/
 ```
 
+Check version Greengrass
+```bash
+java -jar ./GreengrassInstaller/lib/Greengrass.jar --version
+```
+
 ```bash
 sudo -E java -Droot="/greengrass/v2" -Dlog.store=FILE -jar ./GreengrassInstaller/lib/Greengrass.jar --init-config ./GreengrassInstaller/config.yaml --component-default-user trinity:trinity --setup-system-service true
 ```
